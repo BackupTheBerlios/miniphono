@@ -1,0 +1,25 @@
+/* XPM */
+static char *rapido_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"  c black",
+". c #0000ff",
+"X c None",
+/* pixels */
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XX.XXX.XXX.XXXXX",
+"XX..XX..XX..XXXX",
+"XX...X...X...XXX",
+"XX............XX",
+"XX...X...X...XXX",
+"XX..XX..XX..XXXX",
+"XX.XXX.XXX.XXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX"
+};

@@ -1,0 +1,27 @@
+Ixion is a media player written in C/C++ using wxWidgets and GStreamer.
+It is not a bleeding edge, full-featured, eye-candy, all-in-one 
+application. Ixion exists only because I needed a video player that could
+play at double or half speed. However, it can be useful if you want to see
+how to write a simple app based in wxWidgets and/or GStreamer. I will
+probably never make Ixion 0.2.
+
+All the code based in GStreamer is in one single file: video.c. It has
+been designed to provide a generic interface to the rest of the application
+(see video.h). This way it should be fairly easy to make Ixion work with
+some other media library, such as Mplayer or Xine. Just rewrite video.c.
+
+In theory everything should be portable, but I have only tested it in my
+Linux box. There are a few lines that depend on GTK+2 and another few
+that expect to have an X-window environment (Xv).
+
+See INSTALL for installation insttructions.
+
+Using Ixion
+-----------
+
+Well... just play with those tiny little buttons ;)
+
+If you have problems with audio, you can start Ixion with audio disabled:
+
+	$ ixion -noaudio
+

@@ -1,0 +1,11 @@
+# List of source files containing translatable strings.
+gamp.desktop.in
+gamp.glade
+open-location.glade
+src/main.c
+src/gap-metadata.c
+src/gui-callbacks.c
+src/GAPPlayer.c
+src/playlist.c
+
+

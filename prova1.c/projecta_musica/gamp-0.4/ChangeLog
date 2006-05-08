@@ -1,0 +1,90 @@
+2004-05-15  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* configure.ac: Bump version to 0.4
+	
+2004-05-15  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* gamp.glade, src/main.c: Remove playlist window, put playlist treeview under GtkExpander
+	in main window.  Cleanup the main window.  Fix the menus, add Playlist TLM.
+	* src/gui-callbacks.c: Add menu callbacks for Playlist TLM, add code for expander.
+	* src/playlist.c: Get metadata for file when adding to playlist.
+	
+2004-05-02  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* pixmaps/gamp_icon.png: Remove, not needed
+	* pixmpas/gamp.png: New icon
+	
+2004-05-02  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* gamp.glade, src/main.c, src/gui-callbacks.c: Add DnD support for main window and playlist
+	treeview
+	
+2004-04-24  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* gamp.glade, src/main.c, src/main.h, src/gui-callbacks.c: Add a time elapsed display
+	
+2004-04-24  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* src/GAPPlayer.c, src/GAPPlayer.h: Add a tick callback
+	* src/main.c, src/main.h: Enable the tick callback from the GAPPlayer object
+	* src/gui-callbacks.c: Simplify the code for the slider, may need functionality added
+	
+2004-04-15  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* src/GAPPlayer.c,.h: Add duration property and get function
+	* src/gui-callbacks.c, gamp.glade: Add code to enable the time slider
+	
+2004-04-12  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* src/gui-callbacks.c: Fix segfault with clearing playlist when opening file
+	* src/GAPPlayer.c: Attempt to support iRadio streams
+	
+2004-04-11  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* src/gui-callbacks.c: Fix up behaviour of Open/Open Location/Add
+	
+2004-04-11  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* src/main.c, src/GAPPlayer.c: Add an error dialog function, use it when setting up Gstreamer
+	
+2004-04-05  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* conifgure.ac, NEWS: Version 0.3
+	
+2004-04-05  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* src/playlist.c: Fix pls parsing.
+	* src/GAPPlayer.c, src/GAPPlayer.h: Added gap_get_metadata_uri function.
+	* src/main.c: Fix command line argument parsing
+	
+2004-03-31  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* src/playlist.c: Fix column widths
+	* src/gui-callbacks.c, src/GAPPlayer.c,.h: Pass duration onto playlist
+	
+2004-03-31  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* src/gui-callbacks.c, src/GAPPlayer.c: Use the metadata in the UI
+
+2004-03-31  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* src/gap-metadata.c, src/gap-metadata.h, src/GAPPlayer.c: Add GstTag support (yea!)
+
+2004-03-31  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* open-location.glade, src/gui-callbacks.c: Use the full dialog from the glade file
+	instead of creating one.
+
+2004-03-31  Mason Kidd  <mrkidd@mrkidd.com>
+
+	* Makefile.am, pixmaps/Makefile.am, src/Makefile.am, others:  Cleanup the makefiles
+	from Anjuta.
+
+2003-11-11  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Remove intl.
+	(ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): Add config.rpath.
+	* configure.in (AC_OUTPUT): Add m4/Makefile.
+	(AM_GNU_GETTEXT_VERSION): Bump to 0.12.1.
+

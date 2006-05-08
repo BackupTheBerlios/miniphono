@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-05-16 13:53-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gamp.desktop.in.h:1 gamp.glade.h:2
+msgid "Audio Player"
+msgstr ""
+
+#: gamp.desktop.in.h:2 src/main.c:154
+msgid "Gamp Audio Player"
+msgstr ""
+
+#: gamp.desktop.in.h:3
+msgid "Play your music files"
+msgstr ""
+
+#: gamp.glade.h:1
+msgid "<b><big>Not Currently Playing</big></b>"
+msgstr ""
+
+#: gamp.glade.h:3
+msgid "Open _Location"
+msgstr ""
+
+#: gamp.glade.h:4 src/gui-callbacks.c:270
+msgid "Show _Playlist"
+msgstr ""
+
+#: gamp.glade.h:5
+msgid "_Add File"
+msgstr ""
+
+#: gamp.glade.h:6
+msgid "_Playlist"
+msgstr ""
+
+#: gamp.glade.h:7
+msgid "_Remove File"
+msgstr ""
+
+#: open-location.glade.h:1
+msgid "*"
+msgstr ""
+
+#: open-location.glade.h:2
+msgid "Enter the _location (URI) of the file you would like to add:"
+msgstr ""
+
+#: open-location.glade.h:3
+msgid "Open Location..."
+msgstr ""
+
+#: src/gui-callbacks.c:117 src/gui-callbacks.c:208 src/gui-callbacks.c:415
+msgid "Open Audio Files..."
+msgstr ""
+
+#: src/gui-callbacks.c:192
+msgid "Open Playlist..."
+msgstr ""
+
+#: src/gui-callbacks.c:228
+msgid "translator_credits"
+msgstr ""
+
+#: src/gui-callbacks.c:246
+msgid "A music player for Gnome using the Gstreamer libraries"
+msgstr ""
+
+#: src/gui-callbacks.c:272
+msgid "Hide _Playlist"
+msgstr ""

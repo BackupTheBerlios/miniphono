@@ -1,0 +1,7 @@
+#!/bin/sh
+#CFLAGS='`pkg-config --cflags --libs gtk+-2.0`'
+#LIBS='pkg-config --libs gtk+-2.0'
+gcc -Wall -g $1.c -o $1 `pkg-config --cflags --libs gtk+-2.0` 
+#${LIBS} $1.c
+#gcc -Wall -g helloworld.c -o helloworld `pkg-config --cflags --libs gtk+-2.0`
+

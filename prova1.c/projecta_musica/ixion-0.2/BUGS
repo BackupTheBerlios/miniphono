@@ -1,0 +1,16 @@
+Known bugs
+----------
+
+ * Sound is not available when playing at double or half speed.
+ * If you use the speed buttons while in playing state, the app becomes
+slow/unstable. Don't do that. Press Stop, then change the speed, then Play.
+ * The ffwd and rew buttons are unstable when playing at double or half 
+speed.
+ * When playing a video for the first time, audio and video are not 
+correctly synchronized. If you play with Stop/ffwd/rew buttons, they might
+syncronize :P .
+ * Ixion fails to play video if the X server does not support Xv.
+ * Ixion fails to play certain video formats due to an internal GStreamer bug
+   with the vdrop element that enables speed changing (at least, that's what
+   I think :-P ).
+
